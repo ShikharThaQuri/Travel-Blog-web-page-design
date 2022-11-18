@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.section-1 {
+  background-image: linear-gradient(rgba(9, 2, 3, 0.7), rgba(9, 2, 3, 0.7)),
+    url(../img/banner-1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 2rem 2rem 0 2rem;
+}
+
+/* --------- Header ------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left ul,
+.header-right ul {
+  display: flex;
+  list-style: none;
+}
+.header-left ul li a,
+.header-right ul li a {
+  font-size: 1.1rem;
+  margin: 0 2rem;
+  color: white;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.header-left ul li a:hover,
+.header-right ul li a:hover {
+  color: #d90429;
+}
+
+.fa-solid {
+  margin-inline: 1rem;
+}
+
+.fa-search:hover {
+  color: white;
+}
+
+/* ------ contaner slide first ----------- */
+
+.contaner-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  margin-inline: 2rem;
+}
+
+.overFlow {
+  width: 592px;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 170rem;
+  height: 100%;
+  transition: 0.5s;
+  transform: translateX(0);
+}
+
+.slide-clm {
+  color: white;
+  width: 37rem;
+}
+.slide-clm h2 {
+  color: #d90429;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+.slide-clm p {
+  font-size: 0.9rem;
+  color: #cad2c5;
+  margin-bottom: 2rem;
+}
+.slide-clm span {
+  color: #d90429;
+  background: transparent;
+  border: 2px solid #d90429;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.slide-clm span:hover {
+  color: white;
+  background-color: #d90429;
+  border: 2px solid #d90429;
+}
+
+.contaner-1 span {
+  cursor: pointer;
+}
+.arrow {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-right: 5px solid #d90429;
+  border-bottom: 5px solid #d90429;
+  background: transparent;
+}
+.left {
+  margin-left: 1rem;
+  transform: rotate(135deg);
+}
+.right {
+  margin-right: 1rem;
+  transform: rotate(-45deg);
+}
+
+/* --------- Indicator ----------- */
+.one {
+  position: absolute;
+  right: 4rem;
+  bottom: 2rem;
+}
+.btn {
+  background: transparent;
+  border: 2px solid #d90429;
+  height: 0.9rem;
+  width: 5rem;
+  margin: 0 0 0 2rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.active {
+  background-color: #d90429;
+}
