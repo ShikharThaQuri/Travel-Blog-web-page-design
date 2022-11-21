@@ -1,0 +1,127 @@
+.login-section-1 {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 107, 121, 1) 38%,
+    rgba(121, 9, 103, 1) 99%
+  );
+  width: 100%;
+  height: 100vh;
+}
+
+.login-section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page {
+  width: 400px;
+  height: 580px;
+  background-color: #f1faee;
+  border-radius: 0.5rem;
+  padding: 2.2rem;
+}
+
+/* ------ login first ------- */
+.login-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.login-first h1 {
+  font-size: 28px;
+}
+
+/* --------- login second ------- */
+
+.login-second h4 {
+  font-size: 15px;
+  margin-block: 0.5rem;
+}
+.login-second i {
+  font-size: 17px;
+  margin-left: 0.5rem;
+  color: gray;
+}
+.login-second input {
+  margin-left: 0.5rem;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+::placeholder {
+  color: gray;
+}
+.login-second hr {
+  margin-block: 0.6rem;
+  border: 1px solid grey;
+}
+
+.password {
+  margin-top: 2rem;
+}
+
+.forget-password {
+  display: flex;
+  justify-content: end;
+}
+
+.login-page a {
+  text-decoration: none;
+  color: #f1faee;
+}
+
+.login-button {
+  width: 100%;
+  margin-block: 2rem;
+  padding-block: 0.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 107, 121, 1) 38%,
+    rgba(121, 9, 103, 1) 99%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.or-signup-using {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0 1rem 0;
+}
+
+.signup-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.signup-links .fa-brands {
+  margin-inline: 0.5rem;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fa-facebook-f {
+  background-color: blue;
+}
+.fa-twitter {
+  background-color: blueviolet;
+}
+.fa-google {
+  background-color: red;
+}
